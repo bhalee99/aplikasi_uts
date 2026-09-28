@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#F9F9F9">
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Seseorang"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Role / Peran"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvJurusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jurusan: Teknik Informatika"
+            android:textSize="12sp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:id="@+id/tvAngkatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angkatan: 2024"
+            android:textSize="12sp"
+            android:textColor="#333333" />
+
+    </LinearLayout>
+</LinearLayout>
